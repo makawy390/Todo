@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+.content .form{
+    background-color: #eee;
+    width: 700px;
+    padding: 25px 40px;
+    border-radius: 5px;
+    margin-top: 50px;
+    
+}
+.content .input{
+    width: 500px;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+.content .add{
+padding: 13px;
+border: none;
+background-color: orangered;
+color: #fff;
+border-radius: 5px;
+margin-left: 10px;
+cursor: pointer;
+opacity: .8;
+transition: .5s;
+}
+.content .add:hover{
+    opacity: 1;
+}
+
+.content .tasks{
+    background-color: #eee;
+   width: 700px;
+   padding: 20px 40px;
+   margin-top: 20px; 
+   border-radius: 5px;
+}
+.tasks .div-copy{
+    
+    background-color: #fff;
+    padding:5px 20px ;
+    border-radius: 5px;
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 12px;
+    
+}
+
+.btn{
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    border: none;
+    background: red !important;
+    color: #fff;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+    cursor: pointer !important;
+    opacity: .6;
+    transition: .5s !important;
+}
+.btn:hover{
+    opacity: 1;
+    color: #fff !important;
+}
